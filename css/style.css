@@ -1,0 +1,326 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Open Sans);
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('fonts/proximanova-bold-webfont.eot');
+    src: url('fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-bold-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-bold-webfont.woff') format('woff'),
+         url('fonts/proximanova-bold-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.avert{
+	margin-top: 0px;
+	height: 100px;
+	background-color: #2F2F32;
+	color: white;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.avert h1{
+	font-size: 25px;
+	padding-top: 30px;
+	margin-top: 0px;
+}
+
+.pre-header{
+	margin-top: 0px;
+	height: 3px;
+	background-color: #014C9F;
+}
+
+.header{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 150px;
+	background-color: #FFF;
+	color: white;
+	z-index: 1
+
+}
+
+.header img{
+	margin-top: 0px;
+	float: left;
+	padding-top: 20px;
+	padding-left: 50px;
+	height: 125px;
+}
+
+.box1{
+	height: 500px;
+  background: #212121 url('../img/background.jpg') no-repeat;
+  background-size: cover;
+	color: white;
+	text-align: center;
+	z-index: 4;
+}
+
+.box1 h1{
+	margin-top: 0px;
+	padding-top: 200px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.box1 p{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+.box3{
+	height: 100px;
+	text-align: center;
+	color: white;
+	background-color: #014C9F;
+}
+
+.box3 h1{
+	margin-top: 0px;
+	padding-top: 25px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.features-block{
+	padding-top: 50px;
+}
+
+.features{
+	text-align: center;
+}
+
+.features h1{
+	font-size: 30px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.features p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.features img{
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	padding-top: 50px;
+
+}
+
+.about h1{
+	padding: 5px 30px;
+	display: inline;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #014C9F;
+	margin-right: 20px;
+
+}
+
+.about p{
+	padding-top: 15px;
+}
+
+.about img{
+	padding-top: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.offers{
+	padding-top: 50px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+.offers img{
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.offers .col-md-4{
+	border-style: solid;
+	width: 30%;
+	margin-right: 29px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	background-color: #f4f4f4;
+	border-color: #E6E6E6;
+	border-width: 2px;
+}
+
+.offers h1{
+	font-family: 'proxima_nova_rgbold', sans-serif;
+	color: #014C9F;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 45px;
+	border-bottom: solid 1px #E6E6E6;
+}
+
+.offers p{
+	font-size: 20px;
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+.month{
+	font-size: 25px;
+	color: #2F2F32;
+}
+
+.btn-blue {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #014C9F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #014C9F;
+    font-size: 16px;
+    margin-bottom: 20px;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn-blue:hover{
+	color: #014C9F;
+	background-color: white;
+	text-decoration: none;
+}
+
+nav{
+	float: right;
+	z-index: 2;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    height: 60px;
+    padding: 0;
+    padding-left: 50px;
+    overflow: hidden;
+        margin-right: 50px;
+    margin-top: 50px;
+
+}
+
+nav li {
+    float: left;
+
+
+}
+
+nav li a {
+    color: #2F2F32;
+    display: block;
+    text-align: center;
+    padding: 11px 16px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+    font-size: 20px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #014C9F;
+    border-radius: 30px;
+    margin-right: 10px;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+nav li #vpn{
+	   padding: 11px 25px;
+}
+
+nav li a:link{
+	text-decoration: none;
+}
+
+
+nav li a:hover{
+	background-color: #014C9F;
+	color: white;
+
+}
+
+footer{
+	margin-top: 10px;
+	height: 200px;
+
+	background-color: #2F2F32;
+}
+
+footer h1{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	color: #014C9F;
+}
+
+footer ul{
+	color: white;
+	list-style: none;
+	margin: 0px;
+	padding-left: 0px;
+}
+
+footer li{
+	text-align: center;
+	display: block;
+}
+
+footer li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+footer li a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+footer li a:active{
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .copy{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	font-size: 15px;
+
+	color: #9B9B9C;
+}
+
+#particles-js{
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	z-index: 2;
+}

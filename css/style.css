@@ -143,6 +143,36 @@ body{
 	margin-right: auto;
 }
 
+.partenaires{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.partenaires h1{
+	padding: 5px 30px;
+	display: inline;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #014C9F;
+	margin-right: 20px;
+
+}
+
+.partenaires p{
+	padding-top: 15px;
+}
+
+.partenaires img{
+	height: 64px;
+	padding-top: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .offers{
 	padding-top: 50px;
 	text-align: center;

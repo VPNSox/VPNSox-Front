@@ -35,8 +35,19 @@ body{
 
 .pre-header{
 	margin-top: 0px;
-	height: 3px;
-	background-color: #014C9F;
+    color: #FFFFFF;
+	height: 50px;
+	background-color: #2F2F32;
+}
+
+.pre-header i{
+    padding-top: 10px;
+}
+
+.pre-header a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
 }
 
 .header{

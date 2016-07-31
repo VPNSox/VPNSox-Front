@@ -19,12 +19,12 @@ require 'localization.php';
 			</div>
 			<div class="col-md-4 features">
 				<img src="img/icons/rocket.png" alt="clock"  />
-				<h1><?= _("Uptime 99.9%")_; ?></h1>
+				<h1><?= _("Uptime 99.9%"); ?></h1>
 				<p><?= _("Profitez d'un service sans interruption"); ?></p>
 			</div>
 			<div class="col-md-4 features">
 				<img src="img/icons/umbrella.png" alt="clock"  />
-				<h1><?= _("Securisé")_; ?></h1>
+				<h1><?= _("Securisé"); ?></h1>
 				<p><?= _("Nous chiffrons tout votre traffic !"); ?></p>
 			</div>
 		</div>
@@ -34,7 +34,7 @@ require 'localization.php';
 
 	<div class="container ">
 		<div class="about">
-			<h1><?= _("Serveurs VPN")_; ?></h1>
+			<h1><?= _("Serveurs VPN"); ?></h1>
 			<img src="img/dell.png" alt="server" />
 			<p><?= _("L'accès a nos serveurs est gratuit et sans inscription ! Avec VPNSox tout devient très intuitif, nous tentons de faciliter l'accès à la protection sur le web pour tous !"); ?></p>
 

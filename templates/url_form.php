@@ -46,7 +46,7 @@ html body {
 
 	<div style="width:800px; margin:0 auto;">
 	
-		<form method="post" action="index.php" target="_top" style="margin:0; padding:0;">
+		<form method="post" action="proxy.php" target="_top" style="margin:0; padding:0;">
 			<input type="button" value="Home" onclick="window.location.href='index.php'">
 			<input type="text" name="url" value="<?php echo $url; ?>" autocomplete="off">
 			<input type="hidden" name="form" value="1">

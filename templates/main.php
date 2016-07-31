@@ -17,20 +17,22 @@
 	<?php } ?>
 	
 	<div id="frm">
-	
-	<!-- I wouldn't touch this part -->
-	
-		<form action="proxy.php" method="post" style="margin-bottom:0;">
-			<input name="url" type="text" style="width:400px;" autocomplete="off" placeholder="http://" />
-			<input type="submit" value="Go" />
-		</form>
-		
+        <div class="proxy">
+            <h1>Utilisez notre web proxy gratuit et securisé pour surfer de façon anonyme sur internet.</h1>
+
+            <form action="proxy.php" method="post" style="margin-bottom:0;">
+                <input name="url" type="text" style="width:400px;" autocomplete="off" placeholder="http://" />
+                <input type="submit" value="Go" />
+            </form>
+        </div>
+
+
+
 		<script type="text/javascript">
 			document.getElementsByName("url")[0].focus();
 		</script>
 		
-	<!-- [END] -->
-	
+
 	</div>
 	
 </div>

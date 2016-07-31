@@ -36,12 +36,13 @@
     </div>
 </div>
 <div class="header">
-    <a href="index.php"></a> <img src="img/logo.png" alt="logo" />
+    <a href="index.php"> <img src="img/logo.png" alt="logo" /></a>
     <nav>
         <ul>
             <li><a href="index.php">Accueil</a></li>
             <li><a href="vpn.php" id="vpn">VPN</a></li>
             <li><a href="irc.php">IRC</a></li>
+            <li><a href="proxy.php">WebProxy</a></li>
             <li><a href="blog">Blog</a></li>
 
         </ul>

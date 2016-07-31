@@ -1,6 +1,7 @@
-<?php include '../inc/header.php'; ?>
+<?php include 'inc/header.php'; ?>
 
-<div id="container">
+
+	<div id="container">
 
 	<div class="box3">
 		<h1>WEB PROXY</h1>
@@ -35,4 +36,4 @@
 </div>
 
 
-<?php include '../inc/footer.php'; ?>
+<?php include 'inc/footer.php'; ?>

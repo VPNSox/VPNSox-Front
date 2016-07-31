@@ -32,5 +32,7 @@
         <script src="//static.getclicky.com/js" type="text/javascript"></script>
 
         <script type="text/javascript">try{ clicky.init(100974859); }catch(e){}</script>
+        <script type="text/javascript" src="js/particles.js"></script>
+        <script type="text/javascript" src="js/style.js"></script>
     </body>
 </html>

@@ -22,8 +22,12 @@
 
             <form action="proxy.php" method="post" style="margin-bottom:0;">
                 <input name="url" type="text" style="width:400px;" autocomplete="off" placeholder="http://" />
-                <input type="submit" value="Go" />
+                <input type="submit" value="Go" class="btn btn-primary" />
             </form>
+
+            <p>Grace à notre WebProxy, débloquez Youtube, Facebook et d'autre sites, nous chiffrons votre connection et masquons votre ip vous êtes protégé si votre reseau est surveillé ou censuré et pour finir tout ce passe en ligne, pas besoin de logiciel !</p>
+               
+
         </div>
 
 

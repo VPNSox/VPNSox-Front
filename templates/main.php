@@ -18,6 +18,8 @@
 	
 	<div id="frm">
         <div class="proxy">
+            <iframe data-aa='215151' src='https://ad.a-ads.com/215151?size=468x15' scrolling='no' style='width:468px; height:15px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+
             <h1>Utilisez notre web proxy gratuit et securisé pour surfer de façon anonyme sur internet.</h1>
 
             <form action="proxy.php" method="post" style="margin-bottom:0;">
@@ -26,8 +28,9 @@
             </form>
 
             <p>Grace à notre WebProxy, débloquez Youtube, Facebook et d'autre sites, nous chiffrons votre connection et masquons votre ip vous êtes protégé si votre reseau est surveillé ou censuré et pour finir tout ce passe en ligne, pas besoin de logiciel !</p>
-               
 
+
+            <iframe data-aa='215151' src='https://ad.a-ads.com/215151?size=468x15' scrolling='no' style='width:468px; height:15px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
         </div>
 
 

@@ -1,3 +1,6 @@
+<?php
+require 'localization.php';
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -35,9 +38,8 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Accueil</a></li>
-                    <li><a href="irc.php">IRC</a></li>
-                    <li><a href="blog">Blog</a></li>
+                    <li class="active"><a href="#"><?= _("Accueil"); ?></a></li>
+                    <li><a href="irc.php"><?= _("IRC"); ?></a></li>
 
                 </ul>
             </div><!--/.nav-collapse -->
@@ -47,16 +49,16 @@
     <div class="container" style="padding-top: 100px;">
         <div class="row">
             <div class="col-md-6">
-                <h1>Téléchargez nos VPN sur Mobile</h1>
-                <a href="vpn/vpnsox.ovpn" class="btn btn-danger btn-lg">#NLD1 VPN Pays-Bas</a>
+                <h1><?= _("Téléchargez nos VPN sur Mobile"); ?></h1>
+                <a href="vpn/vpnsox.ovpn" class="btn btn-danger btn-lg"><?= _("#NLD1 VPN Pays-Bas"); ?></a>
                 <br />
-                <a href="vpn/vpnsox-nld2.ovpn" class="btn btn-danger btn-lg">#NLD2 VPN Pays-Bas</a>
+                <a href="vpn/vpnsox-nld2.ovpn" class="btn btn-danger btn-lg"><?= _("#NLD2 VPN Pays-Bas"); ?></a>
 
                 <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script>
                 <script type ='text/javascript'>kofiwidget2.init('Soutenez nous !', '#009cde', 'A2246SE');kofiwidget2.draw();</script>
             </div>
             <div class="col-md-6">
-                <h1>Partenaires</h1>
+                <h1><?= _("Partenaires"); ?></h1>
                 <a href="http://cathost.fr" target="_blank"> <img src="img/partenaires/cathost.png" alt="cathost" height="50px"></a>
             </div>
         </div>

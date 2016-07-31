@@ -1,7 +1,9 @@
-<?php include 'inc/header.php'; ?>
-
+<?php
+include 'inc/header.php';
+require 'localization.php';
+?>
 	<div class="box3">
-		<h1>Mentions Légales</h1>
+		<h1><?= _("Mentions Légales"); ?></h1>
 	</div>
 
 	<div class="container">

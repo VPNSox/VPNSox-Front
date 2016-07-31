@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VPNSox\n"
+"POT-Creation-Date: 2016-07-31 21:11+0200\n"
+"PO-Revision-Date: 2016-07-31 21:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: VPNSox <traduction@vpnsox.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: locale\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: inc/header.php:42 mobile.php:41
+msgid "Accueil"
+msgstr "Home"
+
+#: inc/header.php:43
+msgid "VPN"
+msgstr "VPN"
+
+#: inc/header.php:44 mobile.php:42
+msgid "IRC"
+msgstr "IRC"
+
+#: inc/header.php:45
+msgid "WebProxy"
+msgstr "WebProxy"
+
+#: index.php:8
+msgid "VPN RAPIDE, SECURISE, COMMUNAUTAIRE !"
+msgstr "THE FAST, SECURE, OPENSOUCE VPN"
+
+#: index.php:9
+msgid "Vous gardez le controle !"
+msgstr "You keep the control !"
+
+#: index.php:17
+msgid "Communauté"
+msgstr "Community"
+
+#: index.php:18
+msgid "Participez a la communauté VPNSox depuis notre forum !"
+msgstr "Participate in the community from our forums!"
+
+#: index.php:22
+msgid "Uptime 99.9%"
+msgstr "Uptime 99.9%"
+
+#: index.php:23
+msgid "Profitez d'un service sans interruption"
+msgstr "Enjoy service without interruption"
+
+#: index.php:27
+msgid "Securisé"
+msgstr "Secure"
+
+#: index.php:28
+msgid "Nous chiffrons tout votre traffic !"
+msgstr "We encrypt your traffic"
+
+#: index.php:37
+msgid "Serveurs VPN"
+msgstr "VPN Servers"
+
+#: index.php:39
+msgid ""
+"L'accès a nos serveurs est gratuit et sans inscription ! Avec VPNSox tout "
+"devient très intuitif, nous tentons de faciliter l'accès à la protection sur "
+"le web pour tous !"
+msgstr ""
+"Access to our servers for free and without registration! With VPNSox "
+"everything becomes very intuitive, we try to facilitate access to protection "
+"on the web for everyone!"
+
+#: index.php:42
+msgid "Accèdez à nos VPN !"
+msgstr "Reach to our vpn"
+
+#: index.php:46 mobile.php:61
+msgid "Partenaires"
+msgstr "Partners"
+
+#: irc.php:7
+msgid "CHAT IRC"
+msgstr "IRC CHAT"
+
+#: mentions.php:6
+msgid "Mentions Légales"
+msgstr "Legal"
+
+#: mobile.php:52
+msgid "Téléchargez nos VPN sur Mobile"
+msgstr "Download our VPN from Mobile"
+
+#: mobile.php:53
+msgid "#NLD1 VPN Pays-Bas"
+msgstr "#NLD1 NETHERLANDS VPN"
+
+#: mobile.php:55
+msgid "#NLD2 VPN Pays-Bas"
+msgstr "#NLD2 NETHERLANDS VPN"
+
+#: tos.php:7
+msgid "Conditions Générales"
+msgstr "Terms of Service"
+
+#: vpn.php:7
+msgid "SERVEURS VPN"
+msgstr "VPN SERVERS"
+
+#: vpn.php:17
+msgid "Traffic Illimité"
+msgstr "Unlimited Bandwidth"
+
+#: vpn.php:18
+msgid "Connexion 100Mbps"
+msgstr "100Mbps Network"
+
+#: vpn.php:19
+msgid "No-Logs"
+msgstr "No-Logs"
+
+#: vpn.php:20
+msgid "Tunnel Chiffré"
+msgstr "Encrypted Tunnel"
+
+#: vpn.php:21
+msgid "99.9% Uptime"
+msgstr "99.9% Uptime"
+
+#: vpn.php:23
+msgid "#NLD1 Télécharger (.zip)"
+msgstr "#NLD1 Download (.zip)"
+
+#: vpn.php:24
+msgid "#NLD2 Télécharger (.zip)"
+msgstr "#NLD2 Download (.zip)"
+
+#: vpn.php:36
+msgid "Don"
+msgstr "Don"
+
+#: vpn.php:37
+msgid "Vous souhaitez plus de serveurs ? Faites un don pour VPNSox ! "
+msgstr "You want more servers ? Donate to VPNSox!"
+
+#: vpn.php:38
+msgid ""
+"Chaque don nous aide à faciliter l'accès a la protection des données sur "
+"internet !  "
+msgstr ""
+"Every donation help us facilitate access to the data protection on the "
+"internet!"
+
+#: vpn.php:48
+msgid ""
+"Pour vous offrir un service totalement gratuit, nous avons besoin de la pub "
+"si vous désactivez adblock sur notre site\n"
+"                            vous contribuez à l'avenir de notre service "
+"néanmoins si cela vous importe peu vous pouvez garder adblock activé ou "
+"faire un don pour\n"
+"                            ne plus voir la pub !"
+msgstr ""
+"To offer you a completely free service, we need the pub if you turn off "
+"adblock on our site\n"
+"                             you contribute to the future of our service "
+"nevertheless if that matter you can keep adblock on or make a donation to\n"
+"                             no longer see the pub!"
+
+#: vpn.php:60
+msgid "Statistiques"
+msgstr "Statistics"

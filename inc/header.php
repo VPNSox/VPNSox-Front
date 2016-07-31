@@ -39,11 +39,11 @@
     <a href="index.php"> <img src="img/logo.png" alt="logo" /></a>
     <nav>
         <ul>
-            <li><a href="index.php">Accueil</a></li>
-            <li><a href="vpn.php" id="vpn">VPN</a></li>
-            <li><a href="irc.php">IRC</a></li>
-            <li><a href="proxy.php">WebProxy</a></li>
-           
+            <li><a href="index.php"><?= _("Accueil"); ?></a></li>
+            <li><a href="vpn.php" id="vpn"><?= _("VPN"); ?></a></li>
+            <li><a href="irc.php"><?= _("IRC"); ?></a></li>
+            <li><a href="proxy.php"><?= _("WebProxy"); ?></a></li>
+
         </ul>
     </nav>
 </div>

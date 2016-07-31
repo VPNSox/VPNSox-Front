@@ -1,7 +1,10 @@
-<?php include 'inc/header.php'; ?>
+<?php
+include 'inc/header.php';
+require 'localization.php';
+?>
 
 	<div class="box3">
-		<h1>CHAT IRC</h1>
+		<h1><?= _("CHAT IRC"); ?></h1>
 	</div>
 
 	<div class="container">

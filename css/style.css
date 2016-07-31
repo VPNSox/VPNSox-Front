@@ -371,6 +371,9 @@ footer .copy{
 	text-align: center;
 	font-size: 15px;
     width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .proxy h1{

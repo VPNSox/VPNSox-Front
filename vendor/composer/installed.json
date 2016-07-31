@@ -1,0 +1,106 @@
+[
+    {
+        "name": "symfony/event-dispatcher",
+        "version": "v2.8.4",
+        "version_normalized": "2.8.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/event-dispatcher.git",
+            "reference": "47d2d8cade9b1c3987573d2943bb9352536cdb87"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/47d2d8cade9b1c3987573d2943bb9352536cdb87",
+            "reference": "47d2d8cade9b1c3987573d2943bb9352536cdb87",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "~2.0,>=2.0.5|~3.0.0",
+            "symfony/dependency-injection": "~2.6|~3.0.0",
+            "symfony/expression-language": "~2.6|~3.0.0",
+            "symfony/stopwatch": "~2.3|~3.0.0"
+        },
+        "suggest": {
+            "symfony/dependency-injection": "",
+            "symfony/http-kernel": ""
+        },
+        "time": "2016-03-07 14:04:32",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\EventDispatcher\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony EventDispatcher Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "athlon1600/php-proxy",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Athlon1600/php-proxy.git",
+            "reference": "8ade1e995aacbaf57f748ce2d4a3b679746a5abc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Athlon1600/php-proxy/zipball/8ade1e995aacbaf57f748ce2d4a3b679746a5abc",
+            "reference": "8ade1e995aacbaf57f748ce2d4a3b679746a5abc",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "symfony/event-dispatcher": "~2.6"
+        },
+        "suggest": {
+            "predis/predis": "For caching purposes"
+        },
+        "time": "2016-04-17 01:45:43",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Proxy\\": "src/"
+            },
+            "files": [
+                "src/helpers.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "homepage": "https://www.php-proxy.com/",
+        "keywords": [
+            "php proxy",
+            "php web proxy",
+            "proxy script",
+            "web proxy"
+        ]
+    }
+]

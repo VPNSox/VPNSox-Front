@@ -2,18 +2,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <h1>Liens</h1>
+                        <h1><?= _("Liens"); ?></h1>
                         <ul>
-                            <li><a href="vpn.php">VPN</a></li>
-                            <li><a href="blog">BLOG</a></li>
-                            <li><a href="irc.php">IRC</a></li>
+                            <li><a href="vpn.php"><?= _("VPN"); ?></a></li>
+                            <li><a href="proxy.php"><?= _("WebProxy"); ?></a></li>
+                            <li><a href="irc.php"><?= _("IRC"); ?></a></li>
                         </ul>
                     </div>
                     <div class="col-md-4">
-                        <h1>Termes & Conditions</h1>
+                        <h1><?= _("Termes & Conditions"); ?></h1>
                         <ul>
-                            <li><a href="#">Conditions Génerales</a></li>
-                            <li><a href="mentions.php">Mentions Légales</a></li>
+                            <li><a href="#"><?= _("Conditions Génerales"); ?></a></li>
+                            <li><a href="mentions.php"><?= _("Mentions Légales"); ?></a></li>
 
                         </ul>
                     </div>

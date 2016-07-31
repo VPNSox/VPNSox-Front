@@ -43,8 +43,7 @@
             <li><a href="vpn.php" id="vpn">VPN</a></li>
             <li><a href="irc.php">IRC</a></li>
             <li><a href="proxy.php">WebProxy</a></li>
-            <li><a href="blog">Blog</a></li>
-
+           
         </ul>
     </nav>
 </div>

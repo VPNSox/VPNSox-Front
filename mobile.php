@@ -36,7 +36,7 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Accueil</a></li>
-                    <li><a href="irc.html">IRC</a></li>
+                    <li><a href="irc.php">IRC</a></li>
                     <li><a href="blog">Blog</a></li>
 
                 </ul>

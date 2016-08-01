@@ -28,11 +28,12 @@
 <div class="pre-header">
     <div class="container">
         <div class="col-md-6">
-            <a href="tel:+33362729634">+33(0)3.62.72.96.34</a>
             <a href="mailto:contact@vpnsox.org"><i class="fa fa-envelope-o fa-2x"></i></a>
             <a href="https://twitter.com/VPNSox_Project"><i class="fa fa-twitter fa-2x"></i></a>
             <a href="https://github.com/VPNSox"><i class="fa fa-github fa-2x"></i></a>
             <a href="https://reddit.com/r/VPNSox"><i class="fa fa-reddit fa-2x"></i></a>
+            <a href="tel:+33362729634" id="tel">+33(0)3.62.72.96.34</a>
+
         </div>
     </div>
 </div>

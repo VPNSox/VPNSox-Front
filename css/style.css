@@ -40,6 +40,10 @@ body{
 	background-color: #2F2F32;
 }
 
+.pre-header #tel{
+    font-size: 20px;
+}
+
 .pre-header i{
     padding-top: 10px;
 }

@@ -10,8 +10,10 @@ $supported_locales = array('en_US', 'fr_FR');
 $encoding = 'UTF-8';
 
 $detect = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-if($detect != "fr" || $detect != "fr-fr" || $detect != "fr_FR"){
+if($detect != "fr"){
     $_GET['lang'] = 'en_US';
+}else{
+    $_GET['lang'] = 'fr_FR';
 }
 $locale = (isset($_GET['lang']))? $_GET['lang'] : DEFAULT_LOCALE;
 

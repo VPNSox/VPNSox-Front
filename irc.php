@@ -8,8 +8,8 @@ require 'localization.php';
 	</div>
 
 	<div class="container">
-        <div class="row">
-            <iframe src="https://kiwiirc.com/client/irc.freenode.net/irc.php#VPNSox_Project" style="border:0; width:100%; height:450px;"></iframe>
+        <div class="row" style="padding-top: 20px;">
+			<iframe src="http://webchat.freenode.net?channels=%23VPNSox_Project" width="647" height="400"></iframe>
 		</div>
 	</div>
 

@@ -9,7 +9,7 @@ require 'localization.php';
 
 	<div class="container">
         <div class="row" style="padding-top: 20px;text-align: center">
-			<iframe src="https://webchat.freenode.net?channels=%23VPNSox_Project" width="900" height="800"></iframe>
+			<iframe src="https://kiwiirc.com/client/chat.freenode.net/#VPNSox_Project" style="border:0; width:100%; height:450px;"></iframe>
 		</div>
 	</div>
 

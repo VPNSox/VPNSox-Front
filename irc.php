@@ -8,8 +8,8 @@ require 'localization.php';
 	</div>
 
 	<div class="container">
-        <div class="row" style="padding-top: 20px;">
-			<iframe src="https://webchat.freenode.net?channels=%23VPNSox_Project" width="800" height="400"></iframe>
+        <div class="row" style="padding-top: 20px;text-align: center">
+			<iframe src="https://webchat.freenode.net?channels=%23VPNSox_Project" width="900" height="800"></iframe>
 		</div>
 	</div>
 

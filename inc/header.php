@@ -42,6 +42,7 @@
             <li><a href="index.php"><?= _("Accueil"); ?></a></li>
             <li><a href="vpn.php" id="vpn"><?= _("VPN"); ?></a></li>
             <li><a href="irc.php"><?= _("IRC"); ?></a></li>
+            <li><a href="https://cyphermail.xyz" target="_blank">WebMail</a></li>
             <li><a href="proxy.php"><?= _("WebProxy"); ?></a></li>
 
         </ul>

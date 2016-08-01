@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: VPNSox\n"
-"POT-Creation-Date: 2016-07-31 21:11+0200\n"
-"PO-Revision-Date: 2016-07-31 21:23+0200\n"
+"POT-Creation-Date: 2016-07-31 21:35+0200\n"
+"PO-Revision-Date: 2016-07-31 21:35+0200\n"
 "Last-Translator: \n"
 "Language-Team: VPNSox <traduction@vpnsox.org>\n"
 "Language: fr\n"
@@ -18,21 +18,37 @@ msgstr ""
 "X-Poedit-SearchPath-1: .\n"
 "X-Poedit-SearchPathExcluded-0: assets\n"
 
-#: inc/header.php:42 mobile.php:41
-msgid "Accueil"
-msgstr "Home"
+#: inc/footer.php:5
+msgid "Liens"
+msgstr "Links"
 
-#: inc/header.php:43
+#: inc/footer.php:7 inc/header.php:43
 msgid "VPN"
 msgstr "VPN"
 
-#: inc/header.php:44 mobile.php:42
+#: inc/footer.php:8 inc/header.php:45
+msgid "WebProxy"
+msgstr "WebProxy"
+
+#: inc/footer.php:9 inc/header.php:44 mobile.php:42
 msgid "IRC"
 msgstr "IRC"
 
-#: inc/header.php:45
-msgid "WebProxy"
-msgstr "WebProxy"
+#: inc/footer.php:13
+msgid "Termes & Conditions"
+msgstr "Terms of Service"
+
+#: inc/footer.php:15
+msgid "Conditions Génerales"
+msgstr "TOS"
+
+#: inc/footer.php:16 mentions.php:6
+msgid "Mentions Légales"
+msgstr "Legal"
+
+#: inc/header.php:42 mobile.php:41
+msgid "Accueil"
+msgstr "Home"
 
 #: index.php:8
 msgid "VPN RAPIDE, SECURISE, COMMUNAUTAIRE !"
@@ -91,10 +107,6 @@ msgstr "Partners"
 #: irc.php:7
 msgid "CHAT IRC"
 msgstr "IRC CHAT"
-
-#: mentions.php:6
-msgid "Mentions Légales"
-msgstr "Legal"
 
 #: mobile.php:52
 msgid "Téléchargez nos VPN sur Mobile"

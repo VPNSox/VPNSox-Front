@@ -126,7 +126,7 @@ class GimmeProxy {
         if ($timeoutToUse === null) {
             // TODO set a default timeout
         }
-        $url = 'http://gimmeproxy.com/api/get/' . $userIdToUse . '/?timeout=' . $timeoutToUse;
+        $url = 'http://gimmeproxy.com/api/getProxy' . $userIdToUse . '/?timeout=' . $timeoutToUse;
         $responseJson = $this->makeRequest($url);
         $this->lastResponse = $responseJson;
         return $this->convertLastResponse($returnTypeToUse);

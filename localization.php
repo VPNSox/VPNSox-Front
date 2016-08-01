@@ -9,7 +9,7 @@ require_once('lib/gettext/gettext.inc');
 $supported_locales = array('en_US', 'fr_FR');
 $encoding = 'UTF-8';
 
-if($_SERVER['HTTP_ACCEPT_LANGUAGE'] != "fr" || "fr_FR"){
+if($_SERVER['HTTP_ACCEPT_LANGUAGE'] != "fr" || $_SERVER['HTTP_ACCEPT_LANGUAGE'] != "fr-fr" || $_SERVER['HTTP_ACCEPT_LANGUAGE'] != "fr_FR"){
     $_GET['lang'] = 'en_US';
 }
 $locale = (isset($_GET['lang']))? $_GET['lang'] : DEFAULT_LOCALE;

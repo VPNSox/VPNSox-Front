@@ -14,6 +14,7 @@
                         <ul>
                             <li><a href="#"><?= _("Conditions Génerales"); ?></a></li>
                             <li><a href="mentions.php"><?= _("Mentions Légales"); ?></a></li>
+                            <li><a href="prive.php">Politique de Confidentialité</a></li>
 
                         </ul>
                     </div>

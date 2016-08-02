@@ -4,7 +4,7 @@ if($ip == "95.85.13.229" || $ip == "178.62.246.71") {
     $label = "success";
     $text = "Secure";
 }else{
-    $label = "danger";
+    $label = "danger"; 
     $text = "Unsecure";
 }
 ?>

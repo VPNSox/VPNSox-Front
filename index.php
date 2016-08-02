@@ -4,7 +4,7 @@ require 'localization.php';
 ?>
 	<div class="ip">
 		<p><span id="text"> Votre IP : <?= $ip; ?> | </span><span id="secure" class=" label label-<?= $label; ?> label-sm"><?= $text; ?></span></p>
-	</div>
+	</div> 
 	<div id="particles-js"></div>
 		<div class="box1">
 			<h1><?= _("VPN RAPIDE, SECURISE, COMMUNAUTAIRE !"); ?></h1>

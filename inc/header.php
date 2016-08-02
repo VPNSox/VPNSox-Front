@@ -37,7 +37,7 @@
 
         </div>
         <div class="col-md-6">
-            <a href="tel:+33362729634" id="tel">03.62.72.96.34</a>
+            <a href="tel:+33362729634" id="tel"> <i class="fa fa-phone"></i> 03.62.72.96.34</a>
         </div>
     </div>
 </div>

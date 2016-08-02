@@ -36,7 +36,7 @@ $string = json_decode($twitter->setGetfield($getfield)
 			<h1><?= _("VPN RAPIDE, SECURISE, COMMUNAUTAIRE !"); ?></h1>
 			<p><?= _("Vous gardez le controle !"); ?></p>
 		</div>
-
+  
 
 	<div class="container">
 		<div class="row features-block">

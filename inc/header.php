@@ -1,11 +1,6 @@
 <?php
 $ip=$_SERVER['REMOTE_ADDR'];
 
-$url=file_get_contents("http://whatismyipaddress.com/ip/$ip");
-
-preg_match_all('/<th>(.*?)<\/th><td>(.*?)<\/td>/s',$url,$output,PREG_SET_ORDER);
-
-$isp=$output[1][2];
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -66,5 +61,5 @@ $isp=$output[1][2];
     </nav>
 </div>
 <div class="ip">
-    <p>Votre IP : <?= $ip; ?> | Votre ISP : <?= $isp; ?></p>
+    <p>Votre IP : <?= $ip; ?> | Votre ISP : <?= gethostbyaddr($ip); ?></p>
 </div>

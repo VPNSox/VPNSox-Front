@@ -30,13 +30,13 @@ $string = json_decode($twitter->setGetfield($getfield)
             <p><span id="text"> Votre IP : <?= $ip; ?> | </span><span id="secure" class=" label label-<?= $labe$
                 </div>
         </div>
-
+ 
 	<div id="particles-js"></div>
 		<div class="box1">
 			<h1><?= _("VPN RAPIDE, SECURISE, COMMUNAUTAIRE !"); ?></h1>
 			<p><?= _("Vous gardez le controle !"); ?></p>
 		</div>
-  
+
 
 	<div class="container">
 		<div class="row features-block">

@@ -26,11 +26,10 @@ $string = json_decode($twitter->setGetfield($getfield)
                 <?php endforeach; ?>
             </marquee> :FLUX TWITTER
         </div>
-        <div class="col-md-4">
-            <p><span id="text"> Votre IP : <?= $ip; ?> | </span><span id="secure" class=" label label-<?= $labe$
-                </div>
-        </div>
- 
+		<div class="col-md-4">
+			<p><span id="text"> Votre IP : <?= $ip; ?> | </span><span id="secure" class=" label label-<?= $label; ?> label-sm"><?= $text; ?></span></p>
+		</div>
+	</div>
 	<div id="particles-js"></div>
 		<div class="box1">
 			<h1><?= _("VPN RAPIDE, SECURISE, COMMUNAUTAIRE !"); ?></h1>

@@ -16,7 +16,7 @@ if($ip == "95.85.13.229" || $ip == "178.62.246.71") {
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>VPNSOX :: VPN COMMUNAUTAIRE</title>
+    <title>VPNSox :: Votre bouclier sur internet !</title>
     <meta name="keywords" content="2016 ,vpn gratuit, gratuit, opensource, new vpn, socks, vpn, vpn gratis, free vpn, free vpn service, free vpn server, free vpn account, openvpn, pptp vpn, web proxy" />
     <meta name="description" content="VPNSox un VPN communautaire qui vous permet de garder le controle sur votre vie privée en ligne !">
     <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -64,16 +64,19 @@ body{
     height: 30px;
     background-color: #212121;
     width: 100%;
-    color: #FFFFFF;
-    font-size: 14px;
-    margin-top: 0px;
-    float: right;
 
+}
+
+.ip p{
+    float: right;
+    margin-top: 0px;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-right: 50px;
 }
 
 .ip #secure{
     padding-top: 2px;
-    padding-right: 50px;
 
 }
 

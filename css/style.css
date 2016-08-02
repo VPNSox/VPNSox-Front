@@ -42,6 +42,8 @@ body{
 
 .pre-header #tel{
     font-size: 20px;
+    float: right;
+
 }
 
 .pre-header i{

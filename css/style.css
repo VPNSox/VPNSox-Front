@@ -40,21 +40,24 @@ body{
 	background-color: #2F2F32;
 }
 
-.pre-header #tel{
-    font-size: 20px;
-    float: right;
-
-}
-
 .pre-header i{
     padding-top: 10px;
 }
 
 .pre-header a{
+
     padding-top: 10px;
     text-decoration: none;
     color: white;
 }
+
+.pre-header #tel{
+    padding-top: 15px;
+    padding-right: 50px;
+    float: right;
+
+}
+
 
 .header{
 	margin-top: 0px;

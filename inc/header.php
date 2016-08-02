@@ -1,6 +1,13 @@
 <?php
 $ip=$_SERVER['REMOTE_ADDR'];
-
+if($ip != "95.85.13.229") {
+    $label = "danger";
+    $text = "Unsecure";
+}
+else{
+    $label = "success";
+    $text = "Secure";
+}
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -61,5 +68,5 @@ $ip=$_SERVER['REMOTE_ADDR'];
     </nav>
 </div>
 <div class="ip">
-    <p>Votre IP : <?= $ip; ?> | Votre ISP : <?= gethostbyaddr($ip); ?></p>
+    <p>Votre IP : <?= $ip; ?> | <span class="label label-<?= $label; ?>"></span></p>
 </div>

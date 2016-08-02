@@ -4,7 +4,7 @@ require 'localization.php';
 ?>
 	<div class="ip">
 		<div class="col-md-8">
-			<marquee class="tweets"> test </marquee>
+			<marquee id="tweets"> test </marquee>
 		</div>
 		<div class="col-md-4">
 			<p><span id="text"> Votre IP : <?= $ip; ?> | </span><span id="secure" class=" label label-<?= $label; ?> label-sm"><?= $text; ?></span></p>

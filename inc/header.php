@@ -68,5 +68,5 @@ else{
     </nav>
 </div>
 <div class="ip">
-    <p><span class="text"> Votre IP : <?= $ip; ?> | </span><span class="secure label label-<?= $label; ?> label-sm"><?= $text; ?></span></p>
+    <p><span id="text"> Votre IP : <?= $ip; ?> | </span><span id="secure" class=" label label-<?= $label; ?> label-sm"><?= $text; ?></span></p>
 </div>

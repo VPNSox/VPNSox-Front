@@ -52,7 +52,8 @@ body{
 }
 
 .pre-header #tel{
-    padding-top: 10px;
+    margin-top: 0px;
+    padding-top: 15px;
     padding-right: 50px;
     float: right;
 

@@ -1,11 +1,11 @@
 <?php
 $ip=$_SERVER['REMOTE_ADDR'];
-if($ip != "95.85.13.229" || $ip != "178.62.246.71") {
-    $label = "danger";
-    $text = "Unsecure";
-}else{
+if($ip == "95.85.13.229" || $ip == "178.62.246.71") {
     $label = "success";
     $text = "Secure";
+}else{
+    $label = "danger";
+    $text = "Unsecure";
 }
 ?>
 <!DOCTYPE html>
@@ -65,7 +65,4 @@ if($ip != "95.85.13.229" || $ip != "178.62.246.71") {
             <li><a href="proxy.php"><?= _("WebProxy"); ?></a></li>
         </ul>
     </nav>
-</div>
-<div class="ip">
-    <p><span id="text"> Votre IP : <?= $ip; ?> | </span><span id="secure" class=" label label-<?= $label; ?> label-sm"><?= $text; ?></span></p>
 </div>

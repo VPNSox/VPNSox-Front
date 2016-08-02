@@ -51,7 +51,7 @@ require 'localization.php';
 
                         </p>
                     </div>
-                    <div class="adbit-display-ad" data-adspace-id="79BEB48BB9"></div>
+                    <div class="adbit-display-ad" data-adspace-id="72BCB618EF"></div>
                 </div>
 			</div>
 		</div>

@@ -3,7 +3,7 @@ $ip=$_SERVER['REMOTE_ADDR'];
 if($ip != "95.85.13.229") {
     $label = "danger";
     $text = "Unsecure";
-}elseif( $ip != "178.62.246.71"){
+}elseif($ip != "178.62.246.71"){
     $label = "danger";
     $text = "Unsecure";
 }else{

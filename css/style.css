@@ -60,6 +60,17 @@ body{
 
 }
 
+.ip{
+    height: 20px;
+    color: #FFFFFF;
+    background-color: #212121;
+    font-size: 14px;
+    margin-top: 0px;
+    padding-top: 2px;
+    padding-right: 50px;
+    float: right;
+
+}
 
 .header{
 	margin-top: 0px;

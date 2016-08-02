@@ -11,9 +11,9 @@
     <meta name="description" content="VPNSox un VPN communautaire qui vous permet de garder le controle sur votre vie privée en ligne !">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="adbit-site-verification" content="2460d97eb120bf757a7e5cc6047e188ae6fa445536485d9b28d3660eee825580" />
+
     <link rel="alternate" hreflang="fr" href="https://vpnsox.org/" />
     <link rel="alternate" hreflang="en" href="https://vpnsox.org/" />
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -53,7 +53,9 @@
             <li><a href="irc.php"><?= _("IRC"); ?></a></li>
             <li><a href="https://cyphermail.xyz" target="_blank">WebMail</a></li>
             <li><a href="proxy.php"><?= _("WebProxy"); ?></a></li>
-
         </ul>
     </nav>
+</div>
+<div class="ip">
+    Votre IP : <?= $_SERVER['REMOTE_ADDR']; ?> | Votre ISP : <?= geoip_isp_by_name($_SERVER['REMOTE_ADDR']); ?>
 </div>

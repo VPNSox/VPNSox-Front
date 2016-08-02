@@ -18,14 +18,19 @@ $string = json_decode($twitter->setGetfield($getfield)
 //if($string["errors"][0]["message"] != "") {echo "<h3>Sorry, there was a problem.</h3><p>Twitter returned the following error message:</p><p><em>".$string[errors][0]["message"]."</em></p>";exit();}
 
 ?>
-	<div class="ip">
-		<div class="col-md-8">
-			<marquee id="tweets"> test </marquee>
-		</div>
-		<div class="col-md-4">
-			<p><span id="text"> Votre IP : <?= $ip; ?> | </span><span id="secure" class=" label label-<?= $label; ?> label-sm"><?= $text; ?></span></p>
-		</div>
-	</div>
+    <div class="ip">
+        <div class="col-md-8" id="tweets">
+            <marquee width="85%" >
+                <?php foreach($string as $items): ?>
+                    <?=  $items['text'] . "   ||   "; ?>
+                <?php endforeach; ?>
+            </marquee> :FLUX TWITTER
+        </div>
+        <div class="col-md-4">
+            <p><span id="text"> Votre IP : <?= $ip; ?> | </span><span id="secure" class=" label label-<?= $labe$
+                </div>
+        </div>
+
 	<div id="particles-js"></div>
 		<div class="box1">
 			<h1><?= _("VPN RAPIDE, SECURISE, COMMUNAUTAIRE !"); ?></h1>

@@ -29,8 +29,8 @@
 
             <p>Grace à notre WebProxy, débloquez Youtube, Facebook et d'autre sites, nous chiffrons votre connection et masquons votre ip vous êtes protégé si votre reseau est surveillé ou censuré et pour finir tout ce passe en ligne, pas besoin de logiciel !</p>
 
+            <div style="margin-bottom: 50px;" class="adbit-display-ad" data-adspace-id="2BCAB35DF2"></div>
 
-            <div class="adbit-display-ad" data-adspace-id="2BCAB35DF2"></div>
         </div>
 
 

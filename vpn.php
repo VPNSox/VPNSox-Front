@@ -51,7 +51,7 @@ require 'localization.php';
 
                         </p>
                     </div>
-                    <iframe data-aa='214331' src='https://ad.a-ads.com/214331?size=240x400' scrolling='no' style='width:240px; height:400px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+                    <div class="adbit-display-ad" data-adspace-id="74BDA4006C"></div>
                 </div>
 			</div>
 		</div>

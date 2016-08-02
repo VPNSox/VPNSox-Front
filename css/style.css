@@ -61,9 +61,14 @@ body{
 }
 
 .ip{
-    height: 20px;
-    color: #FFFFFF;
+    height: 25px;
     background-color: #212121;
+    width: 100%;
+}
+
+.ip p{
+
+    color: #FFFFFF;
     font-size: 14px;
     margin-top: 0px;
     padding-top: 2px;

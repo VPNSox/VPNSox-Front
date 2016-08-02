@@ -56,7 +56,5 @@
         </ul>
     </nav>
 </div>
-
 <div class="ip">
-    <p>Votre IP : <?= $_SERVER['REMOTE_ADDR']; ?> | Votre ISP : <?= // geoip_isp_by_name($_SERVER['REMOTE_ADDR']); ?></p>
 </div>

@@ -34,7 +34,7 @@
             <a href="https://twitter.com/VPNSox_Project"><i class="fa fa-twitter fa-2x"></i></a>
             <a href="https://github.com/VPNSox"><i class="fa fa-github fa-2x"></i></a>
             <a href="https://reddit.com/r/VPNSox"><i class="fa fa-reddit fa-2x"></i></a>
-            <a href="https://facebook.com/VPNSOX"><i class="fa fa-facebook fa-2x"></i></a>
+            <a href="https://facebook.com/VPNSOX"><i class="fa fa-facebook-square fa-2x"></i></a>
 
 
         </div>

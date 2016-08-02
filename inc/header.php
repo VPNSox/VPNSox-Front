@@ -57,4 +57,5 @@
     </nav>
 </div>
 <div class="ip">
+    <p>Votre IP : <?= $_SERVER['REMOTE_ADDR']; ?> </p>
 </div>

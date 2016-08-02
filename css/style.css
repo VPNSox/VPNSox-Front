@@ -54,7 +54,7 @@ body{
 .pre-header #tel{
     font-size: 20px;
     margin-top: 0px;
-    padding-top: 2px;
+    padding-top: 5px;
     padding-right: 50px;
     float: right;
 
@@ -73,6 +73,7 @@ body{
     font-size: 14px;
     color: #FFFFFF;
     padding-right: 50px;
+    padding-top: 4px;
 }
 
 .ip #secure{

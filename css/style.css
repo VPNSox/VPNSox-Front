@@ -52,6 +52,7 @@ body{
 }
 
 .pre-header #tel{
+    font-size: 20px;
     margin-top: 0px;
     padding-top: 15px;
     padding-right: 50px;

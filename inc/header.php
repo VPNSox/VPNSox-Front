@@ -18,7 +18,7 @@ if($ip == "95.85.13.229" || $ip == "178.62.246.71") {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>VPNSox :: Votre bouclier sur internet !</title>
     <meta name="keywords" content="2016 ,vpn gratuit, gratuit, opensource, new vpn, socks, vpn, vpn gratis, free vpn, free vpn service, free vpn server, free vpn account, openvpn, pptp vpn, web proxy" />
-    <meta name="description" content="VPNSox un VPN communautaire qui vous permet de garder le controle sur votre vie privée en ligne !">
+    <meta name="description" content="VPNSox est un VPN communautaire qui vous permet de garder le controle sur votre vie privée en ligne gratuitement et de façon communautaire !">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="adbit-site-verification" content="2460d97eb120bf757a7e5cc6047e188ae6fa445536485d9b28d3660eee825580" />
 

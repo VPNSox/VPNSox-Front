@@ -75,6 +75,8 @@ $string = json_decode($twitter->setGetfield($getfield)
             <div class="partenaires">
                 <h1><?= _("Partenaires"); ?></h1>
                 <a href="http://cathost.fr" target="_blank"><img src="img/partenaires/cathost.png" alt="cathost"></a>
+                <a href="http://blazingfast.io" target="_blank"><img src="img/partenaires/blazing.png" alt="blazingfast"></a>
+
             </div>
         </div>
 	</div>

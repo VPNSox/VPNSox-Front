@@ -22,7 +22,7 @@
                         <h1>Partenaires</h1>
                         <ul>
                             <li><a href="http://cathost.fr" target="_blank"> <img src="img/partenaires/cathost-white.png" alt="cathost" height="32px"></a></li>
-                            <li><a href="http://blazingfast.io" target="_blank"> <img src="img/partenaires/blazing-fast.png" alt="blazing-fast" height="32px"></a></li>
+                            <li><a href="http://blazingfast.io" target="_blank"> <img src="img/partenaires/blazing.png" alt="blazing-fast" height="32px"></a></li>
                             <li><a href="mailto:contact@vpnsox.org">Vous/You ?</a></li>
                         </ul>
                     </div>

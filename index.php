@@ -60,19 +60,23 @@ $string = json_decode($twitter->setGetfield($getfield)
 
 
 	<div class="container ">
-		<div class="about">
-			<h1><?= _("Serveurs VPN"); ?></h1>
-			<img src="img/dell.png" alt="server" />
-			<p><?= _("L'accès a nos serveurs est gratuit et sans inscription ! Avec VPNSox tout devient très intuitif, nous tentons de faciliter l'accès à la protection sur le web pour tous !"); ?></p>
+        <div class="col-md-6">
+            <div class="about">
+                <h1><?= _("Serveurs VPN"); ?></h1>
+                <img src="img/dell.png" alt="server" />
+                <p><?= _("L'accès a nos serveurs est gratuit et sans inscription ! Avec VPNSox tout devient très intuitif, nous tentons de faciliter l'accès à la protection sur le web pour tous !"); ?></p>
 
 
-			<a href="vpn.php" class="btn-blue"><?= _("Accèdez à nos VPN !"); ?> </a>
-		</div>
+                <a href="vpn.php" class="btn-blue"><?= _("Accèdez à nos VPN !"); ?> </a>
+            </div>
+        </div>
 
-		<div class="partenaires">
-			<h1><?= _("Partenaires"); ?></h1>
-			<a href="http://cathost.fr" target="_blank"><img src="img/partenaires/cathost.png" alt="cathost"></a>
-		</div>
+        <div class="col-md-6">
+            <div class="partenaires">
+                <h1><?= _("Partenaires"); ?></h1>
+                <a href="http://cathost.fr" target="_blank"><img src="img/partenaires/cathost.png" alt="cathost"></a>
+            </div>
+        </div>
 	</div>
 
 

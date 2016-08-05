@@ -28,7 +28,6 @@ require 'localization.php';
                     <img src="img/pays/us.png" alt="USA" />
                     <p><?= _("Traffic Illimité"); ?></p>
                     <p><?= _("Connexion 100Mbps"); ?></p>
-                    <p><?= _("Anti-DDoS"); ?></p>
                     <p><?= _("No-Logs"); ?></p>
                     <p><?= _("Tunnel Chiffré"); ?></p>
                     <p><?= _("99.9% Uptime"); ?></p>
@@ -46,7 +45,7 @@ require 'localization.php';
 
                 <!-- ADVERTS
                 <div class="col-md-4">
-                    
+
                     <div class="adbit-display-ad" data-adspace-id="72BCB618EF" style="margin-bottom: 10px;"></div>
                     <div class="adbit-display-ad" data-adspace-id="798963BBF7"></div>
 

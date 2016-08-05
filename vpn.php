@@ -46,14 +46,7 @@ require 'localization.php';
 
                 <!-- ADVERTS
                 <div class="col-md-4">
-                    <div id="soyezcool">
-                        <p>
-                            <?= /* _("Pour vous offrir un service totalement gratuit, nous avons besoin de la pub si vous désactivez adblock sur notre site
-                            vous contribuez à l'avenir de notre service néanmoins si cela vous importe peu vous pouvez garder adblock activé ou faire un don pour
-                            ne plus voir la pub !gitg"); */ ?>
-
-                        </p>
-                    </div>
+                    
                     <div class="adbit-display-ad" data-adspace-id="72BCB618EF" style="margin-bottom: 10px;"></div>
                     <div class="adbit-display-ad" data-adspace-id="798963BBF7"></div>
 

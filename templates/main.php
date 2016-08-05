@@ -38,12 +38,6 @@
 				 style="display:inline-block;width:336px;height:280px"
 				 data-ad-client="ca-pub-2576728198449645"
 				 data-ad-slot="4049562215"></ins>
-
-
-			<ins class="adsbygoogle"
-				 style="display:inline-block;width:336px;height:280px"
-				 data-ad-client="ca-pub-2576728198449645"
-				 data-ad-slot="4049562215"></ins>
 			<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>

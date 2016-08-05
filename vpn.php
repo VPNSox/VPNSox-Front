@@ -26,6 +26,7 @@ require 'localization.php';
 				</div>
 				<div class="col-md-4">
                     <img src="img/pays/United-states-flag.png" alt="USA" />
+                    <p>OpenVPN</p>
                     <p><?= _("Traffic Illimité"); ?></p>
                     <p><?= _("Connexion 100Mbps"); ?></p>
                     <p><?= _("No-Logs"); ?></p>

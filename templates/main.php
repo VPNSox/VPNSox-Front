@@ -18,7 +18,12 @@
 	
 	<div id="frm">
         <div class="proxy">
-            <div class="adbit-display-ad" data-adspace-id="2BCAB35DF2"></div>
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<ins class="adsbygoogle"
+				 style="display:inline-block;width:728px;height:90px;text-align: center;"
+				 data-ad-client="ca-pub-2576728198449645"
+				 data-ad-slot="4747566219"></ins>
+
 
             <h1>Utilisez notre web proxy gratuit et securisé pour surfer de façon anonyme sur internet.</h1>
 
@@ -29,7 +34,19 @@
 
             <p>Grace à notre WebProxy, débloquez Youtube, Facebook et d'autre sites, nous chiffrons votre connection et masquons votre ip vous êtes protégé si votre reseau est surveillé ou censuré et pour finir tout ce passe en ligne, pas besoin de logiciel !</p>
 
-            <div class="adbit-display-ad" data-adspace-id="43462017F3"></div>
+			<ins class="adsbygoogle"
+				 style="display:inline-block;width:336px;height:280px"
+				 data-ad-client="ca-pub-2576728198449645"
+				 data-ad-slot="4049562215"></ins>
+
+
+			<ins class="adsbygoogle"
+				 style="display:inline-block;width:336px;height:280px"
+				 data-ad-client="ca-pub-2576728198449645"
+				 data-ad-slot="4049562215"></ins>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
 
         </div>
 

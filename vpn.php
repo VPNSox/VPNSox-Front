@@ -15,23 +15,25 @@ require 'localization.php';
 					<img src="img/pays/nl.png" alt="Netherlands" />
 					<p>OpenVPN</p>
 					<p><?= _("Traffic Illimité"); ?></p>
-					<p><?= _("Connexion 100Mbps"); ?></p>
-					<p><?= _("No-Logs"); ?></p>
+					<p><?= _("Connexion 1GBPS"); ?></p>
+					<p><?= _("Anti-DDoS"); ?></p>
+                    <p><?= _("No-Logs"); ?></p>
 					<p><?= _("Tunnel Chiffré"); ?></p>
                     <p><?= _("99.9% Uptime"); ?></p>
                     <p>&nbsp;</p>
 					<a href="vpn/VPNSox-NLD.zip" class="btn-blue"><?= _("#NLD1 Télécharger (.zip)"); ?></a>
                     <a href="vpn/VPNSox-NLD2.zip" class="btn-blue"><?= _("#NLD2 Télécharger (.zip)"); ?></a>
 				</div>
-				<!--<div class="col-md-4">
-					<h1>€10 EUR<span class="month">/Mois</span></h1>
-                    <p>OpenVPN</p>
-					<p>Traffic Illimité</p>
-					<p>Connexion 100Mbps</p>
-					<p>No-Logs</p>
-					<p>Tunnel Chiffré</p>
-					<a href="#" class="btn-blue">Commander</a>
-				</div>-->
+				<div class="col-md-4">
+                    <img src="img/pays/us.png" alt="USA" />
+                    <p><?= _("Traffic Illimité"); ?></p>
+                    <p><?= _("Connexion 100Mbps"); ?></p>
+                    <p><?= _("Anti-DDoS"); ?></p>
+                    <p><?= _("No-Logs"); ?></p>
+                    <p><?= _("Tunnel Chiffré"); ?></p>
+                    <p><?= _("99.9% Uptime"); ?></p>
+                    <a href="vpn/VPNSox-US.zip" class="btn-blue"><?= _("#US1 Télécharger (.zip)"); ?></a>
+				</div>
 				<div class="col-md-4">
 					<h1><?= _("Don"); ?></h1>
 					<p><?= _("Vous souhaitez plus de serveurs ? Faites un don pour VPNSox ! "); ?></p>
@@ -41,21 +43,40 @@ require 'localization.php';
                     <script type ='text/javascript'>kofiwidget2.init('Soutenez nous !', '#009cde', 'A2246SE');kofiwidget2.draw();</script>
                     <p>&nbsp;</p>
 				</div>
-                <!-- ADVERTS -->
+
+                <!-- ADVERTS
                 <div class="col-md-4">
                     <div id="soyezcool">
                         <p>
-                            <?= _("Pour vous offrir un service totalement gratuit, nous avons besoin de la pub si vous désactivez adblock sur notre site
+                            <?= /* _("Pour vous offrir un service totalement gratuit, nous avons besoin de la pub si vous désactivez adblock sur notre site
                             vous contribuez à l'avenir de notre service néanmoins si cela vous importe peu vous pouvez garder adblock activé ou faire un don pour
-                            ne plus voir la pub !"); ?>
+                            ne plus voir la pub !gitg"); */ ?>
 
                         </p>
                     </div>
                     <div class="adbit-display-ad" data-adspace-id="72BCB618EF" style="margin-bottom: 10px;"></div>
                     <div class="adbit-display-ad" data-adspace-id="798963BBF7"></div>
 
-                </div>
+                </div>-->
 			</div>
+
+            <!-- ADVERTS -->
+            <div id="soyezcool" style="text-align: center;">
+                <p>
+                    <?= _("Pour vous offrir un service totalement gratuit, nous avons besoin de la pub si vous désactivez adblock sur notre site
+                            vous contribuez à l'avenir de notre service néanmoins si cela vous importe peu vous pouvez garder adblock activé ou faire un don pour
+                            ne plus voir la pub !gitg"); ?>
+
+                </p>
+            </div>
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:728px;height:90px;text-align: center;"
+                 data-ad-client="ca-pub-2576728198449645"
+                 data-ad-slot="4747566219"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
 		</div>
 
         <div class="about">

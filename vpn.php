@@ -12,7 +12,7 @@ require 'localization.php';
 			<div class="row">
                 <p style="font-size: 13px;">You (the user) are responsible for your actions or damages caused by using our free VPN service. <span style="color: red;"> Do NOT use this VPN for doing evil </span>. If you do abuse the system, your IP will be banned. To report abuse, please email abuse@vpnsox.org. This free VPN service is for personal use only. Please contact us for options if you need VPN service for business or commercial use. </p>
 				<div class="col-md-4">
-					<img src="img/pays/nl.png" alt="Netherlands" />
+					<img src="img/pays/Netherlands-flag.png" alt="Netherlands" />
 					<p>OpenVPN</p>
 					<p><?= _("Traffic Illimité"); ?></p>
 					<p><?= _("Connexion 1GBPS"); ?></p>
@@ -25,7 +25,7 @@ require 'localization.php';
                     <a href="vpn/VPNSox-NLD2.zip" class="btn-blue"><?= _("#NLD2 Télécharger (.zip)"); ?></a>
 				</div>
 				<div class="col-md-4">
-                    <img src="img/pays/us.png" alt="USA" />
+                    <img src="img/pays/United-states-flag.png" alt="USA" />
                     <p><?= _("Traffic Illimité"); ?></p>
                     <p><?= _("Connexion 100Mbps"); ?></p>
                     <p><?= _("No-Logs"); ?></p>

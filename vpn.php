@@ -34,7 +34,7 @@ require 'localization.php';
                     <p><?= _("Tunnel Chiffré"); ?></p>
                     <p><?= _("99.9% Uptime"); ?></p>
                     <a href="vpn/VPNSox-US.zip" class="btn-blue"><?= _("#US1 Télécharger (.zip)"); ?></a>
-		    <a href="vpn/VPNSox-US-OBFS.zip" class="btn-blue"><?= _("#US1 Télécharger (obsfproxy) (.zip)"); ?></a>
+		    <a href="vpn/VPNSox-US-OBFS.zip" class="btn-blue"><?= _("#US1 Télécharger (obsfproxy)"); ?></a>
 				</div>
 				<div class="col-md-4">
 					<h1><?= _("Don"); ?></h1>

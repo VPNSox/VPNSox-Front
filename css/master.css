@@ -1,0 +1,138 @@
+@import 'https://fonts.googleapis.com/css?family=Ubuntu';
+body{
+    padding: 0px;
+    margin: 0px;
+    color: #ffffff;
+}
+
+h1{
+    font-size: 2em;
+}
+
+.menu{
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+.header{
+    background: url("../img/space.jpg") no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100vh;
+    visibility: inherit;
+
+}
+
+.header-text{
+    font-family: 'Ubuntu', cursive;
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+.button-white{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+}
+
+.button-white:hover{
+    background-color: white;
+    color: black;
+    transition: All 0.5s ease;
+}
+
+.button-invert{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+.button-invert:hover{
+    color: #ffffff;
+    transition: All 0.5s ease;
+    background-color: transparent;
+}
+
+.content{
+    text-align: center;
+    color: #000000;
+    font-family: 'Ubuntu', cursive;
+    margin-bottom: 0px;
+}
+
+.vpn1 ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dns{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', cursive;
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #000000 , #53346D); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #000000 , #53346D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.dns ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.social{
+    text-align: center;
+    font-family: 'Ubuntu', cursive;
+    color: #000000;
+}
+
+.social ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.social ul li{
+    display: inline-block;
+}
+
+.social img{
+    margin-right: 10px;
+    display: block;
+    height: 50px;
+}
+
+.partners{
+    font-family: 'Ubuntu', cursive;
+    text-align: center;
+    color: #000000;
+}
+
+.partners ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.partners ul li{
+    display: inline-block;
+}
+
+.partners img{
+    margin-right: 10px;
+    display: block;
+    height: 30px;
+}

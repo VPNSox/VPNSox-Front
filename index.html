@@ -28,8 +28,10 @@
     </div>
     <div class="content" id="vpn" style="padding-top: 10px;">
         <h1>Téléchargez nos VPN</h1>
+        <p id="btc" style="display: none;">BTC: 184W6UCAy9CixsEz6WhXDPTmnLYptjfdvA</p>
+
         <a href="https://openvpn.net/index.php/open-source/downloads.html" class="button button-primary">Télécharger OpenVPN</a>
-        <a href="http://ko-fi.com/A2246SE" class="button button-primary">Faire un Don</a>
+        <a href="http://ko-fi.com/A2246SE" class="button button-primary" target="_blank" onclick="showBTC()">Faire un Don</a>
         <div class="row">
             <div class="six columns">
                 <div class="vpn1">
@@ -96,8 +98,17 @@
         </ul>
     </div>
 
+    <footer>
+        <p><a href="">Conditions Générales</a><a href="mentions">Mentions Légales</a><a href="">Protection des Données</a></p>
+    </footer>
 
     <script type="text/javascript" src="js/particles.js"></script>
     <script type="text/javascript" src="js/style.js"></script>
+    <script type="text/javascript">
+        function showBTC() {
+            document.getElementById("btc").style.display = "";
+        }
+
+    </script>
 </body>
 </html>

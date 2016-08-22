@@ -1,8 +1,16 @@
 @import 'https://fonts.googleapis.com/css?family=Ubuntu';
+
+html, body {
+    height: 100%;
+    margin: 0; padding: 0;
+}
+
 body{
     padding: 0px;
     margin: 0px;
     color: #ffffff;
+    display : table;
+    width: 100%;
 }
 
 h1{
@@ -36,8 +44,11 @@ h1{
 
 .header-text{
     font-family: 'Ubuntu', cursive;
-    padding-top: 100px;
     text-align: center;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-100px 0 0 -300px;
 
 }
 
@@ -153,4 +164,23 @@ h1{
     margin-right: 10px;
     display: block;
     height: 30px;
+}
+
+footer {
+    display : table-row;
+    font-family: 'Ubuntu', cursive;
+    text-align: center;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: #bbbbbb;
+    margin-right: 10px;
+}
+
+.mentions{
+    font-family: 'Ubuntu', cursive;
+    color: #222222;
+    text-align: center;
 }

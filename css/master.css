@@ -21,6 +21,16 @@ h1{
     width: 100%;
     height: 100vh;
     visibility: inherit;
+    z-index: 4;
+    position: relative;
+
+}
+
+#particles-js{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
 
 }
 
@@ -39,12 +49,16 @@ h1{
     border-style: solid;
     border-width: 2px;
     padding: 10px;
+    position: relative;
+    z-index: 4;
 }
 
 .button-white:hover{
     background-color: white;
     color: black;
     transition: All 0.5s ease;
+    position: relative;
+    z-index: 4;
 }
 
 .button-invert{
@@ -56,6 +70,8 @@ h1{
     border-width: 2px;
     padding: 10px;
     background-color: white;
+    position: relative;
+    z-index: 4;
 
 }
 
@@ -63,6 +79,8 @@ h1{
     color: #ffffff;
     transition: All 0.5s ease;
     background-color: transparent;
+    position: relative;
+    z-index: 4;
 }
 
 .content{

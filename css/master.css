@@ -20,6 +20,7 @@ h1{
 .menu{
     padding-top: 25px;
     padding-left: 50px;
+    z-index: 4;
 }
 
 .header{

@@ -28,10 +28,10 @@
     </div>
     <div class="content" id="vpn" style="padding-top: 10px;">
         <h1>Téléchargez nos VPN</h1>
-        <p id="btc" style="display: none;">BTC: 184W6UCAy9CixsEz6WhXDPTmnLYptjfdvA</p>
-
         <a href="https://openvpn.net/index.php/open-source/downloads.html" class="button button-primary">Télécharger OpenVPN</a>
-        <a href="http://ko-fi.com/A2246SE" class="button button-primary" target="_blank" onclick="showBTC()">Faire un Don</a>
+        <a href="http://ko-fi.com/A2246SE" class="button button-primary" target="_blank" onmouseover="showBTC()" onclick="hideBTC()">Faire un Don</a>
+        <p id="vide" >&nbsp;</p>
+        <p id="btc" style="display: none;">BTC: 184W6UCAy9CixsEz6WhXDPTmnLYptjfdvA</p>
         <div class="row">
             <div class="six columns">
                 <div class="vpn1">
@@ -107,8 +107,11 @@
     <script type="text/javascript">
         function showBTC() {
             document.getElementById("btc").style.display = "";
+            document.getElementById("vide").style.display = "none";
         }
-
+        function hideBTC() {
+            document.getElementById("btc").style.display = "none";
+        }
     </script>
 </body>
 </html>

@@ -169,6 +169,10 @@ h1{
     height: 30px;
 }
 
+.partners a{
+    text-decoration: none;
+}
+
 footer {
     display : table-row;
     font-family: 'Ubuntu', cursive;

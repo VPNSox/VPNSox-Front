@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="fr">
+
+d<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>VPNSox :: Votre bouclier sur Internet !</title>
     <meta name="keywords" content="2016 ,vpn gratuit, gratuit, opensource, new vpn, socks, vpn, vpn gratis, free vpn, free vpn service, free vpn server, free vpn account, openvpn, pptp vpn, web proxy"/>
     <meta name="description" content="VPNSox est un VPN communautaire qui vous permet de garder le controle sur votre vie privée en ligne gratuitement et de façon communautaire !">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
     <link rel="stylesheet" href="css/skeleton.css" media="all">
     <link rel="stylesheet" href="css/normalize.css" media="all">
     <link rel="stylesheet" href="css/master.css" media="all">
@@ -35,8 +35,9 @@
         </p>
         <h1 id="vpn">Téléchargez nos VPN</h1>
         <a href="https://openvpn.net/index.php/open-source/downloads.html" class="button button-primary">Télécharger OpenVPN</a>
-        <a href="http://ko-fi.com/A2246SE" class="button button-primary" target="_blank" ">Faire un Don</a>
-        <p>BTC: 184W6UCAy9CixsEz6WhXDPTmnLYptjfdvA</p>
+        <a href="http://ko-fi.com/A2246SE" class="button button-primary" target="_blank" onmouseover="showBTC()" onclick="hideBTC()">Faire un Don</a>
+        <p id="vide" >&nbsp;</p>
+        <p id="btc" style="display: none;">BTC: 184W6UCAy9CixsEz6WhXDPTmnLYptjfdvA</p>
         <div class="row">
             <div class="six columns">
                 <div class="vpn1">
@@ -119,6 +120,14 @@
 
     <script type="text/javascript" src="js/particles.js"></script>
     <script type="text/javascript" src="js/style.js"></script>
-    <script type="text/javascript" src="js/button.js"></script>
+    <script type="text/javascript">
+        function showBTC() {
+            document.getElementById("btc").style.display = "";
+            document.getElementById("vide").style.display = "none";
+        }
+        function hideBTC() {
+            document.getElementById("btc").style.display = "none";
+        }
+    </script>
 </body>
 </html>

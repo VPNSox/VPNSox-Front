@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Ubuntu';
 
-a{
+a, a:hover{
     text-decoration: none;
 }
 

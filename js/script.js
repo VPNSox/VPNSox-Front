@@ -9,7 +9,7 @@
         $('#no-partners').click(function(e){
         e.preventDefault();
         $('#myModal').modal('hide');
-        $.cookie('no-partners', "viewed", {expires : 30 * 12});
+        $.cookie('no-partners', "viewed", {expires : 4});
         });
     }
 

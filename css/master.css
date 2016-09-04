@@ -173,6 +173,10 @@ h1{
     height: 30px;
 }
 
+.partner-small{
+    height: 80px;
+}
+
 .partners a{
     text-decoration: none;
 }

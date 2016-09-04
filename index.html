@@ -6,10 +6,12 @@
     <meta name="keywords" content="2016 ,vpn gratuit, gratuit, opensource, new vpn, socks, vpn, vpn gratis, free vpn, free vpn service, free vpn server, free vpn account, openvpn, pptp vpn, web proxy"/>
     <meta name="description" content="VPNSox est un VPN communautaire qui vous permet de garder le controle sur votre vie privée en ligne gratuitement et de façon communautaire !">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <link rel="stylesheet" href="css/skeleton.css" media="all">
-    <link rel="stylesheet" href="css/normalize.css" media="all">
-    <link rel="stylesheet" href="css/master.css" media="all">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="all" />
+    <link rel="stylesheet" href="css/skeleton.css" media="all" />
+    <link rel="stylesheet" href="css/normalize.css" media="all" />
+    <link rel="stylesheet" href="css/master.css" media="all" />
+
 
 </head>
 <body>
@@ -23,11 +25,53 @@
 
         <div class="header-text">
             <h1>VPN Gratuit, Sécurisé, Rapide et OpenSource !</h1>
-            <a href="#about" class="button-white">En savoir plus</a>&nbsp;
+            <a href="#about" class="button-white" >En savoir plus</a>&nbsp;
             <a href="forum" class="button-invert">Forum</a>
         </div>
     </div>
     <div class="content" id="about" style="padding-top: 10px;">
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Juste une chose...</h4>
+                    </div>
+                    <div class="modal-body">
+                        Afin de fournir un service de qualité, nous avons décidé de travailler avec les meilleurs.
+                        Voici donc les partenaires qui nous aident fournir des services de qualité.
+                        <br />
+
+                        <div class="partners" style="padding-top: 5px;">
+                            <h5>Hebergement de notre site et services</h5>
+                            <ul>
+                                <li><a href="http://www.mengine.fr/aff.php?aff=12" target="_blank"><img src="img/mengine.png" style="height: 80px;" alt="mengine" /></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="partners" style="padding-top: 5px;">
+                            <h5>Hebergement des serveurs VPN</h5>
+                            <ul>
+                                <li><a href="http://blazingfast.io" target="_blank"><img src="img/blazingfast.png" style="height: 50px;" alt="blazingfast" /></a></li>
+                            </ul>
+                        </div>
+                        Si vous aimez ce que nous proposons alors nous sommes sûr que leurs services vont vous plaire !
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#about" class="button button-default" id="no-partners">Ne plus voir</a>
+                        <a href="#about" class="button button-primary" data-dismiss="modal">Close</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
         <h1>A Propos</h1>
         <p>
             VPNSox a été créé par une équipe de passionnés pensant que personne ne devrait avoir à payer pour être en sécurité sur Internet ainsi, nous tentons de mettre à votre disposition tous les outils nécessaires à une parfaite sécurité et liberté sur Internet !
@@ -108,7 +152,7 @@
         <h1>Voici nos partenaires</h1>
         <p>Sans eux ce projet n'aurais pas pu voir le jour</p>
         <ul>
-            <li><a href="http://cathost.fr" target="_blank"><img src="img/cathost.png" alt="cathost" /></a></li>
+            <li><a href="http://mengine.fr" target="_blank"><img src="img/mengine.png" alt="mengine" style="height: 40px;"/></a></li>
             <li><a href="https://blazingfast.io" target="_blank"><img src="img/blazingfast.png" alt="blazingfast" /></a></li>
         </ul>
     </div>
@@ -117,8 +161,15 @@
         <p><a href="">Conditions Générales</a><a href="mentions">Mentions Légales</a><a href="privacy">Protection des Données</a></p>
     </footer>
 
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/particles.js"></script>
     <script type="text/javascript" src="js/style.js"></script>
     <script type="text/javascript" src="js/button.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
 </body>
 </html>

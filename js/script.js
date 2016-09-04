@@ -8,7 +8,7 @@
 
         $('#no-partners').click(function(e){
         e.preventDefault();
-        $('#no-partners').fadeOut();
+        $('#myModal').modal('hide');
         $.cookie('no-partners', "viewed", {expires : 30 * 12});
         });
     }

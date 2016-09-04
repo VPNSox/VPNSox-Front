@@ -1,5 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Ubuntu';
 
+a{
+    text-decoration: none;
+}
+
 html, body {
     height: 100%;
     margin: 0; padding: 0;

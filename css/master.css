@@ -187,6 +187,28 @@ h1{
     text-decoration: none;
 }
 
+
+.sox{
+    font-family: 'Ubuntu', cursive;
+    text-align: center;
+    color: #000000;
+}
+
+.sox ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.sox ul li{
+    display: inline-block;
+}
+
+.sox img{
+    margin-right: 10px;
+    display: block;
+}
+
+
 footer {
     display : table-row;
     font-family: 'Ubuntu', cursive;

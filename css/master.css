@@ -206,6 +206,9 @@ h1{
     display: block;
 }
 
+.sox a{
+    text-decoration: none;
+}
 
 footer {
     display : table-row;

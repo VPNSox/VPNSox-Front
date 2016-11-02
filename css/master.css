@@ -174,12 +174,11 @@ h1{
 }
 
 .partner-small img{
-    width: 388px;
-    height: 133px;
+    height: 80px;
 }
 
 .partner-large img{
-    height: 80px;
+    height: 50px;
 }
 
 .partners a{

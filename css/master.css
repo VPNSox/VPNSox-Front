@@ -187,10 +187,10 @@ h1{
 
 
 .sox{
- 
-    font-family: 'Ubuntu', cursive;
-    text-align: center;
-    color: #000000;
+    position: relative; /* on positionne le conteneur */
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .sox .bloc{
